@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"Proxima Nova",sans-serif;
+}
+.nav-main{
+    height: 3rem;
+    width: 100%;
+    background-color: #003A70;
+    text-align: center;
+}
+.header{
+    height: 130px;
+    width: 100%;
+}
+#m{
+    margin-left: 2rem;
+    position: absolute;
+    top:13%;
+    z-index: 2;
+}
+.nav-bar1{
+    float: right;
+    height: 42px;
+    width: 82%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #35B6B4;
+    font-size: 16px;
+    /* color: #ffffff; */
+}
+a:hover{
+    font-size: 20px;
+}
+.nav-bar2{
+    float: right;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    height: 76px;
+    width: 100%;
+    /* background-color: black; */
+}
+li{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-left:30px;
+    display: inline-block;
+    list-style-type: none;
+}
+.drop-down{
+    display: none;
+    height: 80px;
+    width: 550px;
+    background-color: #f7f8f8;
+    line-height: 30px;
+    margin-top: 20px;
+    position:absolute;
+    transform: translate(-100px);
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    cursor: pointer;
+
+}
+.same {
+    width: 150px;
+    display: inline;
+    /* background-color: #35B6B4; */
+}
+
+.drop:hover .drop-down{
+    display: block;
+}
+
+
+.hos:hover .drop-down{
+    display: block;
+}
+
+.treat:hover .drop-down{
+    display: block;
+}
+
+.serv:hover .drop-down{
+    display: block;
+}
+
+.quick:hover .drop-down{
+    display: block;
+}
+
+.inter:hover .drop-down{
+    display: block;
+}
+
+.main{
+    height: 40px;
+    width: 100%;
+    background-color: #003A70;
+}
+.home{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.content{
+    height: 300px;
+    text-align: center;
+}
+.t{
+    position: relative;
+    top: 30%;
+    font-size: 2rem;
+}
+.in{
+    height: 138px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    /* background-color: red; */
+    top:50%;
+    box-shadow: 0px 0px 7px 0px rgb(150, 147, 147);
+}
+.search-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 318px;
+    height: 66px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    /* background-color: black; */
+}
+i{
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.location-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 318px;
+    height: 66px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+}
+
+input{
+    width: 249px;
+    height: 32px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 4px;
+
+
+}
+input:focus{
+    outline: none;
+}
+button{
+    background-color: #003A70;
+    width: 275px;
+    height: 68px;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 0px 0px;
+    border-radius: 4px;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #35B6B4;
+}
+
+.services{
+    height: 150px;
+    width: 1050px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 12%;
+    margin-left:9.6%;
+    cursor: pointer;
+}
+
+.inner{
+    width: 150px;
+    height: 120px;
+    /* background-color: black; */
+    padding: 0px,8px;
+    margin: 2%;
+}
+.box{
+    width: 170px;
+     height: 102px;
+     padding: 10px;
+     border: 1px solid rgb(189, 180, 212);
+     border-radius: 20px;
+     background-color: #f7f7f7;
+}
+.paragraph{
+    width: 170px;
+    height: 80px;
+}
+.image{
+    background-image: url(https://image-s32023.s3.ap-south-1.amazonaws.com/Max+Healthcare/19oct2023/icon-int-patients.svg);
+    height: 52px;
+    width: 50.031px;
+    background-size: contain;
+    margin-left: 59.984px;
+    margin-right: 59.984px;
+}
+.image1{
+    background-image: url(https://max-health-care.online/img/immi-icon.png);
+    height: 52px;
+    width: 60.031px;
+    background-size: cover;
+    margin-left: 54.984px;
+    margin-right: 54.984px;
+}
+.image2{
+    background-image: url(https://www.maxhealthcare.in/img/Health-checkup.svg);
+    height: 52px;
+    width: 55.031px;
+    margin-top: 10px;
+    background-size: cover;
+    margin-left: 51.984px;
+    margin-right: 51.984px;
+}
+.health{
+    margin-top: 0px;
+}
+.text{
+    margin-top: 5px;
+    width: 170px;
+    height: 24px;
+    font-size: 16px;
+}
+.para{
+    margin-top: 5px;
+    font-size: 10px;
+}
+.immi{
+    font-weight: 550;
+    margin-top: 7px;
+}
+.health{
+    position: relative;
+    top: 15%;
+}
+
+
+
