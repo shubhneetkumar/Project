@@ -37,18 +37,26 @@ a:hover{
     font-size: 17px;
     display: flex;
     justify-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content:end;
+    align-items:center;
     padding: 6px 12px;
     height: 76px;
     width: 100%;
     /* background-color: black; */
 }
+.div2{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-right:100px;
+    display: inline-block;
+    list-style-type: none;
+}
 li{
     position: relative;
     top: 5px;
     cursor: pointer;
-    margin-left:30px;
+    margin-left:45px;
     display: inline-block;
     list-style-type: none;
 }
@@ -70,7 +78,8 @@ li{
 .same {
     width: 150px;
     display: inline;
-    /* background-color: #35B6B4; */
+    /* background-color: red; */
+    margin-right: 50px;
 }
 
 .drop:hover .drop-down{
@@ -104,7 +113,7 @@ li{
     background-color: #003A70;
 }
 .home{
-    height: 400px;
+    height: 500px;
     width: 100%;
     text-align: center;
 }
@@ -192,7 +201,7 @@ button:hover{
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    top: 12%;
+    top: 8%;
     margin-left:9.6%;
     cursor: pointer;
 }
@@ -263,5 +272,19 @@ button:hover{
     top: 15%;
 }
 
+.hero{
+    height: 1000px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+
+}
+.specialities{
+    height: 490.2px;
+    width: 628.5px;
+    background-color: aqua;
+    margin: 4%;
+    /* padding: 0px 48px 0px 0px; */
+}
 
 
